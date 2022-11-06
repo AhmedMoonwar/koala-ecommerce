@@ -5,7 +5,7 @@
 }
 .carousel-item
 {
-    padding: 20px 40px;
+    padding: 70px 40px 50px 40px !important;
 }
 .buynow-btn
 {
@@ -14,4 +14,62 @@
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
+}
+.categories, #laptop, #camera, #subscribe
+{
+    padding: 50px 0;
+}
+.cat1, .cat2, .cat3
+{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1
+{
+    background-image: linear-gradient(-90deg, #fdce42, #fc9700);
+}
+.cat2
+{
+    background-image: linear-gradient(-90deg, #FF589B 0%, #fd0bb5 100%);
+}
+.cat3
+{
+    background-image: linear-gradient(-90deg, #30bcfd 0%, #0e32fd 100%);
+}
+.categories h1{
+    color:white;
+}
+.categories img
+{
+    width: 120px;
+}
+.nav-item a{
+    color: #707071;
+}
+.nav-item a:hover{
+    color: #000000;
+}
+.navbar-nav .nav-link.active
+{
+    color: #000000;
+}
+.card-footer
+{
+    background-color: white;
+    border-top: none;
+}
+#subscribe
+{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+#subscribe button
+{
+    margin-top: 5px;
+}
+footer{
+    text-align: center;
+    color: #6d6d6d;
 }
